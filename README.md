@@ -1,6 +1,6 @@
 # TripleTen Assignment 
 
-## Insights into Junior Full-Stack Developer Skill Requirements
+## Analysis review
 
 How much knowledge on these areas depends on the company you'll be interviewing with. FAANG companies, even for frontend positions, tend to emphasize algorithms to filter through the large number of candidates they receive. For companies outside the very top, the emphasis on knowledge of algorithms and data structures tends to diminish, as more practical knowledge is required, specially at startups outside big tech hubs (like the Bay Area). 
 
