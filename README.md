@@ -1,6 +1,17 @@
-# TripleTen
+# TripleTen Assignment 
 
-# Introduction to TypeScript
+## Insights into Junior Full-Stack Developer Skill Requirements
+
+How much knowledge on these areas depends on the company you'll be interviewing with. FAANG companies, even for frontend positions, tend to emphasize algorithms to filter through the large number of candidates they receive. For companies outside the very top, the emphasis on knowledge of algorithms and data structures tends to diminish, as more practical knowledge is required, specially at startups outside big tech hubs (like the Bay Area). 
+
+Regardless of the extent of testing during interviews, acquiring a foundational understanding of algorithms is recommended. For instance, understanding Big O notation, even if not applied daily, proves useful in writing efficient code.
+
+Concerning testing, while having a test suite in any codebase is important, its significance may be lower for junior roles, especially those requiring no previous experience. However, encouraging a basic understanding of testing, such as unit testing, is advisable.
+
+TypeScript, on the other hand, has become the standard these days compared to how it was years ago and is required in almost every job listing. And with good reason since it helps you catch possible bugs from the get go. 
+
+
+## Introduction to TypeScript
 
 Considering its significance and widespread use today, let's delve into a brief introduction to TypeScript, explore its advantages, and hopefully, inspire you to consider using it in your future projects.
 
