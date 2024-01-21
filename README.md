@@ -4,7 +4,7 @@
 
 How much knowledge on these areas depends on the company you'll be interviewing with. FAANG companies, even for frontend positions, tend to emphasize algorithms to filter through the large number of candidates they receive. For companies outside the very top, the emphasis on knowledge of algorithms and data structures tends to diminish, as more practical knowledge is required, specially at startups outside big tech hubs (like the Bay Area). 
 
-Regardless of the extent of testing during interviews, acquiring a foundational understanding of algorithms is recommended. For instance, understanding Big O notation, even if not applied daily, proves useful in writing efficient code.
+Regardless, acquiring a foundational understanding of algorithms is recommended. For instance, understanding Big O notation, even if not applied daily, proves useful in writing efficient code.
 
 Concerning testing, while having a test suite in any codebase is important, its significance may be lower for junior roles, especially those requiring no previous experience. However, encouraging a basic understanding of testing, such as unit testing, is advisable.
 
@@ -77,7 +77,7 @@ function greetUser(user: User): string {
 ```
 By looking at it, you know that the function `greetUser` expects a parameter of type User and will return a string.
 
-Another advantage, especially if you're using Visual Studio Code (VSC), is the helpful autocompletion. Typing `user.` will show you the available options or keys (`firstName`, `lastName`, and `age`) for that object.
+Another advantage, at least if you're using Visual Studio Code (VSC), is the helpful autocompletion. Typing `user.` will show you the available options or keys (`firstName`, `lastName`, and `age`) for that object.
 
 As a last piece of advice, I'd recommend the usage of [Pretty TypeScript Errors](https://github.com/yoavbls/pretty-ts-errors) as it makes the TS errors in VSC much more readable.
 
