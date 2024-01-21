@@ -57,15 +57,15 @@ const user: User = {
 	age: 30
 };
 ```
-By using interfaces or types, you gain insights into the structure of objects. For example, with the greetUser function:
+By using interfaces or types, you gain insights into the structure of objects. For example:
 
 ```js
 function greetUser(user: User): string {
     return "Hello, " + user.name + "!";
 }
 ```
-By looking at it, you know that the function expects a parameter of type User and will return a string.
+By looking at it, you know that the function `greetUser` expects a parameter of type User and will return a string.
 
 Another advantage, especially if you're using Visual Studio Code (VSC), is the helpful autocompletion. Typing `user.` will show you the available options or keys (`firstName`, `lastName`, and `age`) for that object.
 
-In summary, TypeScript offers a powerful way to catch bugs, enhance code readability, and provide helpful tooling, making it a valuable addition to your web development toolkit.
+As a last piece of advice, I'd recommend the usage of [Pretty TypeScript Errors](https://pages.github.com/](https://github.com/yoavbls/pretty-ts-errors)https://github.com/yoavbls/pretty-ts-errors) as it makes the TS errors in VSC much more readable.
