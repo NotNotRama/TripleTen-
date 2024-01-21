@@ -61,11 +61,12 @@ By using interfaces or types, you gain insights into the structure of objects. F
 
 ```js
 function greetUser(user: User): string {
-    return "Hello, " + user.name + "!";
+    return "Hello, " + user.firstName + " " + user.lastName + "!";
 }
 ```
 By looking at it, you know that the function `greetUser` expects a parameter of type User and will return a string.
 
 Another advantage, especially if you're using Visual Studio Code (VSC), is the helpful autocompletion. Typing `user.` will show you the available options or keys (`firstName`, `lastName`, and `age`) for that object.
 
-As a last piece of advice, I'd recommend the usage of [Pretty TypeScript Errors](https://pages.github.com/](https://github.com/yoavbls/pretty-ts-errors)https://github.com/yoavbls/pretty-ts-errors) as it makes the TS errors in VSC much more readable.
+As a last piece of advice, I'd recommend the usage of [Pretty TypeScript Errors](https://github.com/yoavbls/pretty-ts-errors) as it makes the TS errors in VSC much more readable.
+
